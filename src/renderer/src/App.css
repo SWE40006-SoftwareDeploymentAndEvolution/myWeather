@@ -135,6 +135,17 @@ body {
   color: #003559;
 }
 
+.main-weather-additional-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-feel{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #003559;
+}
+
 .info-card {
   background: #f8fbff;
   border-radius: 16px;
