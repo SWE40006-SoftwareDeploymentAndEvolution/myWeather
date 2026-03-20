@@ -1,7 +1,7 @@
 {
   "name": "myweather",
   "version": "1.0.0",
-  "description": "An Electron application with React and TypeScript to view weather in different city",
+  "description": "An Electron application with React and TypeScript to view weather of different cities",
   "main": "./out/main/index.js",
   "author": "Stephanie",
   "homepage": "https://electron-vite.org",

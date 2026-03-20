@@ -67,14 +67,14 @@ body {
   padding: 12px 16px;
   border: none;
   border-radius: 20px;
-  background: #a1c6ea;
+  background: #79a4d4;
   color: white;
   cursor: pointer;
   font-size: 15px;
 }
 
 .search-box button:hover {
-  background: #79a4d4;
+  background: #a1c6ea;
 }
 
 .error {

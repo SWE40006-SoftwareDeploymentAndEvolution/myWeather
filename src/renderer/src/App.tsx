@@ -46,8 +46,11 @@ function App() {
 			setCityWeather(result.data)
 
 		} catch (err) {
-			if (err instanceof Error) {
-				
+			if (axios.isAxiosError(err) && err.response?.status === 404) {
+      			setErrorMsg('City not found. Please check the city name and try again.')
+			}
+			else if (err instanceof Error) {
+				setErrorMsg(err.message)
 			} else {
 				setErrorMsg('Something went wrong.')
 			}

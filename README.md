@@ -1,18 +1,12 @@
-# myweather
+# My Weather
 
 An Electron application with React and TypeScript
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+# Features
+- Search for a city to retrieve its current weather information
+- Displays real-time weather information
 
 ## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
 
 ### Development
 
